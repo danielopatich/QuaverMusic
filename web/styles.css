@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  font-family: 'Roboto', sans-serif; }
+
+#stage {
+  background-image: url("./assets/background.png");
+  background-position: 0% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-inline-box; }
+  #wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+section.grid {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section.grid::after {
+    clear: both;
+    content: "";
+    display: table; }
+  section.grid div {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-image: url("./assets/grid.png");
+    background-position: 0% 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 25%; }
+    section.grid div:last-child {
+      margin-right: 0; }
+
+section.help img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  position: absolute;
+  left: 75px;
+  bottom: 15px; }
+  section.help img:last-child {
+    margin-right: 0; }
+
+section.dough img.one {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  margin-left: 8.5298%;
+  position: absolute;
+  left: 20%;
+  bottom: 15px; }
+  section.dough img.one:last-child {
+    margin-right: 0; }
+
+section.dough img.two {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  margin-left: 25.58941%;
+  position: absolute;
+  left: 15%;
+  bottom: 15px; }
+  section.dough img.two:last-child {
+    margin-right: 0; }
+
+section.reset img {
+  float: right;
+  position: absolute;
+  right: 75px;
+  bottom: 15px; }
