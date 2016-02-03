@@ -51,6 +51,7 @@ section.grid {
     background-position: 0% 0%;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 25px;
     height: 60%;
     width: 100%;
     position: absolute;
@@ -95,7 +96,12 @@ section.dough img.two {
     margin-right: 0; }
 
 section.reset img {
-  float: right;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
   position: absolute;
   right: 75px;
   bottom: 15px; }
+  section.reset img:last-child {
+    margin-right: 0; }
