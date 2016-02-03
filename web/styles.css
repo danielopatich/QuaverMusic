@@ -34,31 +34,17 @@ html, body {
     content: "";
     display: table; }
 
-section.grid {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  section.grid::after {
-    clear: both;
-    content: "";
-    display: table; }
-  section.grid div {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background-image: url("./assets/grid.png");
-    background-position: 0% 0%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 25px;
-    height: 60%;
-    width: 100%;
-    position: absolute;
-    top: 25%;
-    left: 25%; }
-    section.grid div:last-child {
-      margin-right: 0; }
+section.grid div {
+  background-image: url("./assets/grid.png");
+  background-position: 0% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+  height: 60%;
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%; }
 
 section.help img {
   float: left;
@@ -71,37 +57,36 @@ section.help img {
   section.help img:last-child {
     margin-right: 0; }
 
-section.dough img.one {
+.dough {
+  background: none;
+  border: none;
+  background-image: url("./assets/dough-beat-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 6.17215%;
-  margin-left: 8.5298%;
+  height: 10%;
   position: absolute;
   left: 20%;
   bottom: 15px; }
-  section.dough img.one:last-child {
+  .dough:last-child {
     margin-right: 0; }
 
-section.dough img.two {
+#resetButton {
+  background: none;
+  border: none;
+  background-image: url("./assets/reset-button.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 6.17215%;
-  margin-left: 25.58941%;
-  position: absolute;
-  left: 15%;
-  bottom: 15px; }
-  section.dough img.two:last-child {
-    margin-right: 0; }
-
-section.reset img {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 14.70196%;
   position: absolute;
   right: 75px;
-  bottom: 15px; }
-  section.reset img:last-child {
+  bottom: 15px;
+  height: 4%; }
+  #resetButton:last-child {
     margin-right: 0; }

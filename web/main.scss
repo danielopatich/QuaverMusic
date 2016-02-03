@@ -28,16 +28,15 @@ html, body {
 }
 
 section.grid {
-  @include outer-container();
   div {
-    @include span-columns(12);
+    //@include span-columns(2);
     background-image: url("./assets/grid.png");
     background-position: 0% 0%;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 25px;
     height: 60%;
-    width: 100%;
+    width: 50%;
     position: absolute;
     top: 25%;
     left: 25%;
@@ -53,28 +52,46 @@ section.help {
   }
 }
 
-section.dough {
-  img.one {
-    @include span-columns(1);
-    @include shift(1);
-    position: absolute;
-    left: 20%;
-    bottom: 15px;
-  }
-  img.two {
-    @include span-columns(1);
-    @include shift(3);
-    position: absolute;
-    left: 15%;
-    bottom: 15px;
-  }
+//section.dough {
+//  img.one {
+//    @include span-columns(1);
+//    @include shift(1);
+//    position: absolute;
+//    left: 20%;
+//    bottom: 15px;
+//  }
+//  img.two {
+//    @include span-columns(1);
+//    @include shift(3);
+//    position: absolute;
+//    left: 15%;
+//    bottom: 15px;
+//  }
+//}
+
+
+.dough {
+  background: none;
+  border: none;
+  background-image: url("./assets/dough-beat-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include span-columns(1);
+  height: 10%;
+  position: absolute;
+  left: 20%;
+  bottom: 15px;
 }
 
-section.reset {
-  img {
-    @include span-columns(2);
+ #resetButton {
+    background: none;
+    border: none;
+    background-image: url("./assets/reset-button.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include span-columns(1);
     position: absolute;
     right: 75px;
     bottom: 15px;
-  }
-}
+    height: 4%;
+ }
