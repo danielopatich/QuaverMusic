@@ -41,6 +41,10 @@ packages:
     description: path
     source: hosted
     version: "1.3.9"
+  petitparser:
+    description: petitparser
+    source: hosted
+    version: "1.5.1"
   pool:
     description: pool
     source: hosted
@@ -53,8 +57,16 @@ packages:
     description: stack_trace
     source: hosted
     version: "1.6.1"
+  stagexl:
+    description: stagexl
+    source: hosted
+    version: "0.13.1"
   utf:
     description: utf
     source: hosted
     version: "0.9.0+2"
+  xml:
+    description: xml
+    source: hosted
+    version: "2.4.1"
 sdk: ">=1.14.0 <2.0.0"

@@ -52,24 +52,6 @@ section.help {
   }
 }
 
-//section.dough {
-//  img.one {
-//    @include span-columns(1);
-//    @include shift(1);
-//    position: absolute;
-//    left: 20%;
-//    bottom: 15px;
-//  }
-//  img.two {
-//    @include span-columns(1);
-//    @include shift(3);
-//    position: absolute;
-//    left: 15%;
-//    bottom: 15px;
-//  }
-//}
-
-
 .dough {
   background: none;
   border: none;
@@ -77,10 +59,10 @@ section.help {
   background-repeat: no-repeat;
   background-size: cover;
   @include span-columns(1);
-  height: 10%;
+  height: 12%;
   position: absolute;
   left: 20%;
-  bottom: 15px;
+  bottom: 20px;
 }
 
  #resetButton {
